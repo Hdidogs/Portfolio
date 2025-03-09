@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <meta name="description" content="Portfolio professionnel avec mes compétences et projets">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta property="og:image" content="http://oldrilion.fr/portfolio/photo.jpg"/>
+</head>
+<body class="bg-gray-900 text-gray-100">
+<!-- Navigation -->
+<nav class="bg-gray-800 text-gray-100 py-4 sticky top-0 z-10">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="/" class="text-xl font-bold">
+            Mon Portfolio
+        </a>
+        <ul class="flex space-x-4">
+            <li>
+                <a href="#competences" class="hover:text-blue-400 transition-colors">
+                    Compétences
+                </a>
+            </li>
+            <li>
+                <a href="#projets" class="hover:text-blue-400 transition-colors">
+                    Projets
+                </a>
+            </li>
+            <li>
+                <a href="#professionnel" class="hover:text-blue-400 transition-colors">
+                    Projet Pro
+                </a>
+            </li>
+            <li>
+                <a href="#veille" class="hover:text-blue-400 transition-colors">
+                    Veille
+                </a>
+            </li>
+            <li>
+                <a href="#liens" class="hover:text-blue-400 transition-colors">
+                    Liens
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main class="container mx-auto px-4 py-8">
+    <div class="space-y-20">
+        <!-- Introduction -->
+        <section class="text-center py-20 bg-gray-800 rounded-lg shadow-xl">
+            <h1 class="text-4xl font-bold mb-4">Bienvenue sur mon Portfolio</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                Je suis un développeur passionné, spécialisé dans la création d'applications et de services web modernes et performantes.
+                Découvrez mes compétences, projets et veille technologique.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section id="competences" class="py-10">
+            <h2 class="text-3xl font-bold mb-8 text-center">Mes Compétences</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Frontend Skills -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="code" class="text-blue-400"></i>
+                        <h3 class="text-xl font-semibold ml-2">Développement web</h3>
+                    </div>
+                    <ul class="list-disc list-inside">
+                        <li class="text-gray-300">Php</li>
+                        <li class="text-gray-300">CSS</li>
+                        <li class="text-gray-300">HTML</li>
+                        <li class="text-gray-300">JavaScript</li>
+                        <li class="text-gray-300">Laravel</li>
+                        <li class="text-gray-300">Appian</li>
+                    </ul>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="server" class="text-green-400"></i>
+                        <h3 class="text-xl font-semibold ml-2">Développement logiciel</h3>
+                    </div>
+                    <ul class="list-disc list-inside">
+                        <li class="text-gray-300">Java</li>
+                        <li class="text-gray-300">JavaFX</li>
+                        <li class="text-gray-300">Python</li>
+                    </ul>
+                </div>
+
+                <!-- Database Skills -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="database" class="text-yellow-400"></i>
+                        <h3 class="text-xl font-semibold ml-2">Base de données</h3>
+                    </div>
+                    <ul class="list-disc list-inside">
+                        <li class="text-gray-300">MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projets" class="py-10">
+            <h2 class="text-3xl font-bold mb-8 text-center">Projets Scolaires</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Application de Gestion de stock</h3>
+                        <p class="text-gray-300">Développement d'une application de gestion de stocks pour le lycée Robert Schuman.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Site Aéroport</h3>
+                        <p class="text-gray-300">Création d'un site d'aéroport avec gestion et réservation des vols.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Suite d'application HSP</h3>
+                        <p class="text-gray-300">Conception de 2 application pour des hopitaux une version web et une en client lourd. Qui permettent la gestion d'un hopital passant de la gestion des dossiers patients à une page regroupant toutes les offres d'emplois pour les étudiants à un forum de discussion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Project -->
+        <section id="professionnel" class="py-10">
+            <h2 class="text-3xl font-bold mb-8 text-center">Projet Professionnel</h2>
+            <div class="bg-gray-800 p-8 rounded-lg shadow-xl">
+                <h3 class="text-2xl font-semibold mb-6">Mon Objectif : Manager d'Équipe/Projet / Technico Commercial / Crée mon Entreprise</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start">
+                        <i data-feather="briefcase" class="text-blue-400 mr-4 mt-1"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Expérience Visée</h4>
+                            <p class="text-gray-300">4 ans d'expérience dans le développement web full stack en alternance</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i data-feather="target" class="text-green-400 mr-4 mt-1"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Compétences à Acquérir</h4>
+                            <p class="text-gray-300">Consolider l'Architecture logiciels et l'IA</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i data-feather="users" class="text-yellow-400 mr-4 mt-1"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Ma Force</h4>
+                            <p class="text-gray-300">Gestion d'équipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Watch -->
+        <section id="veille" class="py-10">
+            <h2 class="text-3xl font-bold mb-8 text-center">Veille Technologique</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Tech Watch Item 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 flex items-center">
+                        <i data-feather="newspaper" class="mr-2 text-blue-400"></i>
+                        Minecraft : Une IA pour jouer à votre place ? Ça existe pour de vrai !
+                    </h3>
+                    <p class="text-gray-300 mb-4">Microsoft a dévoilé une démo d'une IA pour Minecraft, permettant aux joueurs de guider le jeu par commandes vocales simples. Bien que cette technologie soit en développement et non destinée au grand public pour le moment, elle illustre les progrès de Microsoft dans les commandes vocales intelligentes pour les jeux vidéo.</p>
+                    <a
+                            href="https://www.millenium.org/news/400342.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-400 hover:underline flex items-center"
+                    >
+                        En savoir plus <i data-feather="arrow-right" class="ml-1" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Tech Watch Item 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 flex items-center">
+                        <i data-feather="newspaper" class="mr-2 text-blue-400"></i>
+                        "CRÉER MIEUX ET PLUS BEAU": Comment Ubisoft utilise l’IA dans les Jeux Vidéo
+                    </h3>
+                    <p class="text-gray-300 mb-4">Xavier Poix, directeur des studios France d’Ubisoft, affirme que l'intelligence artificielle (IA) est une plus-value pour le secteur du jeu vidéo, notamment en aidant à créer des jeux plus beaux et plus élaborés. Selon lui, l'IA libère les efforts des employés pour se concentrer sur des tâches à plus forte valeur ajoutée, mais souligne que le travail créatif reste la prérogative des scénaristes humains.</p>
+                    <a
+                            href="https://www.bfmtv.com/tech/gaming/creer-mieux-et-plus-beau-comment-ubisoft-utilise-l-ia-dans-les-jeux-video_AV-202310310358.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-400 hover:underline flex items-center"
+                    >
+                        En savoir plus <i data-feather="arrow-right" class="ml-1" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Tech Watch Item 3 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 flex items-center">
+                        <i data-feather="newspaper" class="mr-2 text-blue-400"></i>
+                        The Sims 5 : Découvrez le gameplay exclusif en avant-première !
+                    </h3>
+                    <p class="text-gray-300 mb-4">"
+                        Des fuites de gameplay pour le prochain jeu de simulation de vie d'EA, potentiellement intitulé The Sims 5, ont émergé en ligne, suggérant une transition vers l'Unreal Engine et une intelligence artificielle plus avancée pour les personnages Sims. Bien que la date de sortie n'ait pas été confirmée, il est prévu que le jeu soit lancé vers 2025, et il est teasé comme un jeu gratuit avec des extensions à venir.</p>
+                    <a
+                            href="https://popcorngame.fr/the-sims-5-decouvrez-le-gameplay-exclusif-en-avant-premiere/9429/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-400 hover:underline flex items-center"
+                    >
+                        En savoir plus <i data-feather="arrow-right" class="ml-1" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Tech Watch Item 4 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 flex items-center">
+                        <i data-feather="newspaper" class="mr-2 text-blue-400"></i>
+                        Vous pourrez bientôt respirer l’odeur du napalm au petit matin dans Call of grâce à ce générateur d’odeurs par IA
+                    </h3>
+                    <p class="text-gray-300 mb-4">GameScent révolutionne l'expérience de jeu en proposant un générateur d'odeurs synchronisé avec l'action à l'écran, offrant une immersion sensorielle inédite pour les joueurs, avec des arômes allant de la poudre de pistolet aux senteurs de la nature. A l'aide de l'IA.</p>
+                    <a
+                            href="https://www.konbini.com/internet/vous-pourrez-bientot-respirer-lodeur-du-napalm-au-petit-matin-dans-call-of-grace-a-ce-generateur-dodeurs-par-ia/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-400 hover:underline flex items-center"
+                    >
+                        En savoir plus <i data-feather="arrow-right" class="ml-1" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <!-- Links -->
+        <section id="liens" class="py-10">
+            <h2 class="text-3xl font-bold mb-8 text-center">Liens et Informations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- GitHub Link -->
+                <a
+                        href="https://github.com/Hdidogs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="flex items-center p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+                >
+                    <i data-feather="github" class="text-gray-100"></i>
+                    <span class="ml-3">GitHub</span>
+                </a>
+
+                <!-- Tableau de Synthèse Link -->
+                <a
+                        href="http://oldrilion.fr/portfolio/tableausynthese.ods"
+                        download
+                        class="flex items-center p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+                >
+                    <i data-feather="table" class="text-gray-100"></i>
+                    <span class="ml-3">Tableau de Synthèse</span>
+                </a>
+
+                <!-- Email Link -->
+                <a
+                        href="mailto:a.rohee@lprs.fr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="flex items-center p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+                >
+                    <i data-feather="mail" class="text-gray-100"></i>
+                    <span class="ml-3">Email</span>
+                </a>
+
+                <!-- CV Link -->
+                <a
+                        href="http://oldrilion.fr/portfolio/cv.pdf"
+                        download
+                        class="flex items-center p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+                >
+                    <i data-feather="file-text" class="text-gray-100"></i>
+                    <span class="ml-3">CV</span>
+                </a>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script>
+    // Initialize Feather Icons
+    feather.replace();
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80, // Adjust for fixed header
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
